@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "data": {
+            "format": "yyyy-MM-dd HH:mm:ss", 
+            "type": "date"
+        }, 
+        "descricao_conta": {
+            "index": "not_analyzed", 
+            "type": "string"
+        }, 
+        "descricao_movimento": {
+            "index": "not_analyzed", 
+            "type": "string"
+        }, 
+        "id_conta": {
+            "index": "not_analyzed", 
+            "type": "string"
+        }, 
+        "importe": {
+            "type": "double"
+        }, 
+        "tipo_movimento": {
+            "index": "not_analyzed", 
+            "type": "string"
+        }
+    }
+}
